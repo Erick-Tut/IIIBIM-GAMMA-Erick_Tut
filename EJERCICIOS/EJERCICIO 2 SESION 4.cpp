@@ -8,7 +8,7 @@ int main(){
 
 char nombre[35];
 	
-	cout << "Ingrese una frase Max: 35 Caracteristicas >> " << endl;
+	cout << "Ingrese una frase (maximo 35 caracteres): " << endl;
 	
 	cout << " " << endl;
 		
