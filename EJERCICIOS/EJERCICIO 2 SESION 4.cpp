@@ -26,7 +26,7 @@ char nombre[35];
 
     for (int i = 0; i < longitud; i++) {
     	
-        char caracter = tolower(nombre[i]); // Suma todos los datos
+        char caracter = tolower(nombre[i]); // Convierte todas las letras en minuscula
 
         if (caracter == 'a' || caracter == 'e' || caracter == 'i' || caracter == 'o' || caracter == 'u') { // Busca todas las vocales y las cuenta
             Vocales++;
